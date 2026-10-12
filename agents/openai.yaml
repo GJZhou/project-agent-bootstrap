@@ -1,0 +1,7 @@
+interface:
+  display_name: "Project Agent Bootstrap"
+  short_description: "初始化项目 AGENTS.md、文档清单与 Git 进度规则"
+  default_prompt: "Use $project-agent-bootstrap to initialize or update this project's AGENTS.md, docs inventory, progress.md, local Git rules, and explicitly linked workspace rule boundaries."
+
+policy:
+  allow_implicit_invocation: true
